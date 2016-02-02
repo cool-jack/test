@@ -45,5 +45,9 @@ public class PersonBean {
 		this.country = country;
 	}
 	
+	public String toString(){
+		return id+" "+name+" "+country;
+	}
+	
 }
 
